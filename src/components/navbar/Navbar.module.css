@@ -1,0 +1,61 @@
+.Navbar {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    position: fixed;
+    color: #fff;
+    z-index: 3;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+img {
+    height: 50px;
+
+}
+
+.container_options,
+.container_acount_options {
+    display: flex;
+}
+
+.container_options>div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    cursor: pointer;
+}
+
+.container_options>div:not(:last-child) {
+    border-right: 1px solid;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.container_acount_options>div>p {
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.container_acount_options>div>img {
+    height: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.container_acount_options>div {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.container_acount_options>div:first-child {
+    border-right: 1px solid;
+    padding-right: 10px;
+}

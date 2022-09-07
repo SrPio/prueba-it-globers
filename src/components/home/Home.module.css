@@ -1,0 +1,35 @@
+.home {
+    background-image: url('../../../public/assets/principal1.jpg');
+    border: 1px solid #000;
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+h1 {
+    font-size: 55px;
+    width: 650px;
+    text-align: center;
+}
+
+button {
+    margin-top: 200px;
+
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    padding: 15px 50px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
