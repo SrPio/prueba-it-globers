@@ -36,6 +36,7 @@
 .conatiner_input>input {
     width: 770px;
     border: none;
+    outline: none;
 }
 
 .btn_submit {
@@ -50,4 +51,10 @@
 
 .btn_submit>img {
     height: 20px;
+}
+
+.container_alerta_subs {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
 }
