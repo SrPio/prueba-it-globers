@@ -1,0 +1,37 @@
+.social {
+    flex-direction: column;
+
+}
+
+.container_titles,
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_titles>p {
+    font-size: 16px;
+    color: rgb(167, 167, 167);
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.container_titles>h3 {
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.container_collage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 800px;
+}
+
+.container_collage>img {
+    height: 266px;
+    width: 266px;
+}

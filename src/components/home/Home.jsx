@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className={styles.home}>
       <h1>ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.</h1>
-      <button>SHOP</button>
+      <button className={styles.btn_shop_home}>SHOP</button>
     </div>
   );
 }
