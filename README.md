@@ -17,7 +17,7 @@ https://prueba-it-globers.vercel.app/
 - React
 - API formspree
 
-Las validaciones del formulario y el envíon de la información estan controlados desde la siguiente plataforma (API)
+Las validaciones del formulario y el envío de la información estan controlados desde la siguiente plataforma (API)
 https://formspree.io/
 
 
