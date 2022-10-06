@@ -10,12 +10,12 @@ function Cart() {
         </div>
       </div>
       <div className={styles.container_info}>
-        <img src="/assets/Shopping-Bag.png" alt="" />
+        <img loading="lazy" src="/assets/Shopping-Bag.png" alt="" />
         <h2>Pufi CART</h2>
         <div className={styles.separator}></div>
         <p>Descripción del producto. Este es un texto simulado</p>
         <div className={styles.btn_verMas}>
-          <img src="/assets/down-arrow.svg" alt="" />
+          <img loading="lazy" src="/assets/down-arrow.svg" alt="" />
           VER MAS
         </div>
       </div>

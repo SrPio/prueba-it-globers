@@ -6,7 +6,7 @@ function Footer() {
     <div className={styles.footer}>
       <div className={styles.container_top}>
         <div className={styles.container_logo}>
-          <img src="/assets/logo.svg" alt="" />
+          <img loading="lazy" src="/assets/logo.svg" alt="" />
         </div>
         <div className={styles.container_products}>
           <h2>PUFI RAIN</h2>
@@ -22,18 +22,30 @@ function Footer() {
         </div>
         <div className={styles.container_warranty}>
           <h2>COMPRA 100% SEGURA</h2>
-          <img src="/assets/warranty-pic.jpg" alt="" />
+          <img loading="lazy" src="/assets/warranty-pic.jpg" alt="" />
         </div>
         <div className={styles.container_social}>
           <h2>SEGUINOS EN </h2>
-          <img src="/assets/facebook-icon.svg" alt="icon-facebook" />
-          <img src="/assets/twitter-icon.svg" alt="icon-twitter" />
-          <img src="/assets/instagram-icon.svg" alt="icon-instagram" />
+          <img
+            loading="lazy"
+            src="/assets/facebook-icon.svg"
+            alt="icon-facebook"
+          />
+          <img
+            loading="lazy"
+            src="/assets/twitter-icon.svg"
+            alt="icon-twitter"
+          />
+          <img
+            loading="lazy"
+            src="/assets/instagram-icon.svg"
+            alt="icon-instagram"
+          />
         </div>
       </div>
       <div className={styles.container_bottom}>
         <h2>PUFI Copyright 2017 - Todos los derechos reservados</h2>
-        <img src="/assets/brand-pic.jpg" alt="" />
+        <img loading="lazy" src="/assets/brand-pic.jpg" alt="" />
       </div>
     </div>
   );

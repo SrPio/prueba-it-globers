@@ -39,7 +39,7 @@ function Newsletter() {
               type="submit"
               disabled={state.submitting}
             >
-              <img src="/assets/right-arrow.svg" alt="" />
+              <img loading="lazy" src="/assets/right-arrow.svg" alt="" />
             </button>
           </div>
         </form>

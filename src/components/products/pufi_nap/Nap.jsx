@@ -10,12 +10,12 @@ function Nap() {
         </div>
       </div>
       <div className={styles.container_info}>
-        <img src="/assets/backpack.png" alt="" />
+        <img loading="lazy" src="/assets/backpack.png" alt="" />
         <h2>Pufi NAP</h2>
         <div className={styles.separator}></div>
         <p>Descripción del producto. Este es un texto simulado</p>
         <div className={styles.btn_verMas}>
-          <img src="/assets/down-arrow.svg" alt="" />
+          <img loading="lazy" src="/assets/down-arrow.svg" alt="" />
           VER MAS
         </div>
       </div>
